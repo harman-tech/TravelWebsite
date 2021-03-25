@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,300;1,400&display=swap');
+
+*{
+    padding :0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    height:95vh;
+    background:url("../images/dubai.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+a{
+    font: size 1.6rem;
+    text-decoration:underline;
+}
+.header-content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+.header-content h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+.header-content p{
+    text-transform: uppercase;
+    
+
+}
+
+
+.container{
+    max-width: 1200px;
+    width:90%;
+    margin:0 auto;
+}
+.text-red{
+    color:#e63946;
+
+}
+.text-light{
+    color: #f4f4f4;
+}
+.text-black{
+    color:#333333;
+}
+.text-grey{
+    color: #555555;
+}
+.nav-item{
+    text-transform: uppercase;
+}
+.btn{
+    display:inline-block;
+    padding:0.5em 1.5em;
+    font-weight:500;
+    text-transform: uppercase;
+    margin:0.5em;
+   
+}
+.btn-primary{
+    
+    border-radius:10em;
+    text-decoration: none;
+    
+}
+/* shocase styling/////////////////////////////////////////////////////////////// */
+
+.showcase{
+    background:#ddd;
+    padding:10rem 0;
+}
+.row{
+    height:350px;
+    background-color: white;
+    box-shadow:0px 0px 20px 0px #333; 
+}
+.row1{
+    margin-bottom: 10rem;
+}
+.row1 .img-box ,.row2 .text-box{
+    float:left;
+    width:50%;
+}
+.row2 .img-box ,.row1 .text-box{
+    float:right;
+    width:50%;
+}
+.row .img-box{
+    height:100%;
+}
+.row .text-box{
+    padding:3rem;
+    word-wrap: break-word;
+}
+.row .img-box img{
+    display:inline-block;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.lg-heading{
+    font-size:30px;
+}.text-font{
+    font-size:16px;
+    font-family:  "Lucida Console", Courier, monospace;
+}
+.btn-more{
+
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 25px;
+}
+.button3-more {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+  }
+
+ /*################################ feature section styling */
+
+ .features{
+     padding:10rem 0;
+ 
+ }
+ .box-wrapper{
+    box-shadow: 0px 0px 20px 0px;
+ }
+ .box{
+     width: 33.333333%;
+     float:left;
+     padding:2rem;
+     text-align: center;
+     
+ }
+ .box-1, .box-3{
+    background-color:#263238;
+    color:#fff;
+ }
+ .box-2{
+     background:linear-gradient(25deg,#d64c7f,#ee4758 50%);
+     color:#fff;
+ }
+ .box-wrapper::after{
+     content:"";
+     display:block;
+     clear:both;
+ }
+
+ .footer{
+     background-color:#263238;
+     color:#f4f4f4;
+     padding:2rem;
+     text-align: center;
+ }
+ .social-media-links i{
+     margin:2rem;
+ }
+
+ .about{
+     padding:5rem 0;
+     
+ }
+ .about-heading::after{
+     content:'';
+     display:block;
+     border:3px solid #e63946;
+     word-spacing: 2px;
+     
+
+ }
+ .ptext{
+     letter-spacing: 2px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 15px;
+ }
+ .flex-container {
+    display: flex;
+    background-color: white;
+    
+    justify-content: space-around
+    
+  }
+  
+  .flex-container > div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+    width:300px;
+    text-align:center;
+    
+    
+    
+  }
+  ul{
+  list-style-type: none;
+  }
+  .h1{
+      color:red;
+  }
+
+  .banner{
+    background:linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    color:#f4f4f4;
+    padding:1rem;
+    box-shadow: 5px 5px 10px #00000057;
+  }
+  .banner-right{
+      width:40%;
+      float:right;
+  }
+  .banner-left{
+    width:60%;
+    float:left;
+}
+.banner::after{
+    content:'';
+    display: block;
+    clear:both;
+
+}
+.line{
+    font-weight:700;
+    font-size:2rem;
+    margin-top: 1.5rem;
+}
+.btn-banner{
+    text-align:center;
+    display:inline-block;
+    font-weight: 700;
+    font-size:3rem;
+    text-transform: uppercase;
+    border:4px solid white;
+    padding:0.3rem 2.5rem;
+    letter-spacing: 0.5rem;
+    color:#f4f4f4;
+    text-decoration: none;
+    
+}
+
+.contact-form{
+    padding:5rem 0;
+    form-size:2rem;
+
+}
+.form-wrapper{
+    border:2px solid red;
+
+}
+.form-wrapper::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.company-address{
+    border:2px solid green;
+    width:49%;
+    float:left;
+
+}
+.form{
+    border:2px solid black;
+    float:right;
+    width:49%;
+}
